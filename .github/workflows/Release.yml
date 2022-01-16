@@ -19,7 +19,7 @@ name: Release
 on:
   push:
     branches:
-      - main
+      - master
       - dev
       - alpha
       - beta
