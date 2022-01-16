@@ -26,7 +26,7 @@ using Nuke.Common.Utilities;
     GitHubActionsImage.WindowsLatest,
     GitHubActionsImage.UbuntuLatest,
     AutoGenerate = true,
-    OnPushBranches = new[] { "main", "dev", "alpha", "beta" },
+    OnPushBranches = new[] {"main", "dev", "alpha", "beta"},
     OnPullRequestBranches = new[] { "main", "dev", "alpha", "beta" },
     CacheKeyFiles = new[] { "global.json", "SchemaGenerator/**/*.csproj" },
     InvokedTargets = new[] { nameof(Test) },
